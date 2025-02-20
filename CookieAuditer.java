@@ -16,7 +16,7 @@ public class CookieAuditer {
     public static void main(String[] args) {
         BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in));
         try {
-            System.out.print("Enter a URL to audit (e.g., https://example.com): ");
+            System.out.print("Enter a URL to audit (e.g., https://youtube.com): ");
             String urlString = consoleReader.readLine().trim();
             
             // make a HTTP connection
